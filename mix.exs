@@ -12,7 +12,7 @@ defmodule BlurHash.MixProject do
       package: package(),
       deps: deps(),
       name: "BlurHash",
-      source_url: "https://github.com/perzanko/blurhash"
+      source_url: "https://github.com/perzanko/blurhash-elixir"
     ]
   end
 
@@ -39,7 +39,7 @@ defmodule BlurHash.MixProject do
                 CHANGELOG*),
       licenses: ["MIT"],
       links: %{
-        "GitHub" => "https://github.com/perzanko/blurhash"
+        "GitHub" => "https://github.com/perzanko/blurhash-elixir"
       }
     ]
   end

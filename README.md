@@ -74,5 +74,5 @@ Distributed under the MIT License. See `LICENSE.md` for more information.
 
 ---
 
-Project Link: [https://github.com/perzanko/blurhash](https://github.com/perzanko/blurhash)
+Project Link: [https://github.com/perzanko/blurhash-elixir](https://github.com/perzanko/blurhash-elixir)
 
