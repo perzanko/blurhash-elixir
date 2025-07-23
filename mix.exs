@@ -4,13 +4,14 @@ defmodule BlurHash.MixProject do
   def project do
     [
       app: :blurhash,
-      version: "1.0.0",
+      version: "2.0.0",
       elixir: "~> 1.7",
       build_embedded: Mix.env() == :prod,
       start_permanent: Mix.env() == :prod,
       description: description(),
       package: package(),
       deps: deps(),
+      elixirc_paths: elixirc_paths(Mix.env()),
       name: "BlurHash",
       source_url: "https://github.com/perzanko/blurhash-elixir"
     ]
@@ -25,6 +26,9 @@ defmodule BlurHash.MixProject do
       {:ex_doc, "~> 0.22", only: :dev, runtime: false}
     ]
   end
+
+  defp elixirc_paths(:test), do: ["lib", "test/support"]
+  defp elixirc_paths(_), do: ["lib"]
 
   defp description() do
     """
