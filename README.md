@@ -4,8 +4,6 @@ Pure Elixir implementation of Blurhash algorithm with no additional dependencies
 
 Blurhash is an algorithm by Dag Ågren of Wolt that decodes an image to a very compact (~ 20-30 bytes) ASCII string representation, which can be then decoded into a blurred placeholder image. See the main [repository](https://github.com/woltapp/blurhash) for the rationale and details.
 
-This library supports only encoding.
-
 More details on https://blurha.sh/
 
 Documentation available on hexdocs: https://hexdocs.pm/blurhash
@@ -17,7 +15,7 @@ BlurHash is published on [Hex](https://hexdocs.pm/blurhash). Add it to your list
 ```elixir
 def deps do
   [
-    {:blurhash, "~> 1.0.0"}
+    {:blurhash, "~> 2.0.0"}
   ]
 end
 ```
